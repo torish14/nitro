@@ -10,7 +10,7 @@ importers:
       '@cloudflare/kv-asset-handler': ^0.2.0
       '@netlify/functions': ^1.0.0
       '@nuxtjs/eslint-config-typescript': ^10.0.0
-      '@rollup/plugin-alias': ^3.1.9
+      '@rollup/plugin-alias': ^4.0.3
       '@rollup/plugin-commonjs': ^22.0.0
       '@rollup/plugin-inject': ^4.0.4
       '@rollup/plugin-json': ^4.1.0
@@ -87,7 +87,7 @@ importers:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.2.0
       '@netlify/functions': 1.0.0
-      '@rollup/plugin-alias': 3.1.9_rollup@2.75.7
+      '@rollup/plugin-alias': 4.0.3_rollup@2.75.7
       '@rollup/plugin-commonjs': 22.0.0_rollup@2.75.7
       '@rollup/plugin-inject': 4.0.4_rollup@2.75.7
       '@rollup/plugin-json': 4.1.0_rollup@2.75.7
@@ -877,6 +877,20 @@ packages:
     dependencies:
       rollup: 2.75.7
       slash: 3.0.0
+    dev: true
+
+  /@rollup/plugin-alias/4.0.3_rollup@2.75.7:
+    resolution: {integrity: sha512-ZuDWE1q4PQDhvm/zc5Prun8sBpLJy41DMptYrS6MhAy9s9kL/doN1613BWfEchGVfKxzliJ3BjbOPizXX38DbQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      rollup: 2.75.7
+      slash: 4.0.0
+    dev: false
 
   /@rollup/plugin-commonjs/21.1.0_rollup@2.75.7:
     resolution: {integrity: sha512-6ZtHx3VHIp2ReNNDxHjuUml6ur+WcQ28N1yHgCQwsbNkQg2suhxGMDQGJOn/KuDxKtd1xuZP5xSTwBA4GQ8hbA==}
@@ -5279,6 +5293,7 @@ packages:
   /slash/3.0.0:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
+    dev: true
 
   /slash/4.0.0:
     resolution: {integrity: sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==}
