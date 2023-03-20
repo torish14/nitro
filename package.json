@@ -46,7 +46,7 @@
     "@rollup/plugin-inject": "^4.0.4",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
-    "@rollup/plugin-replace": "^4.0.0",
+    "@rollup/plugin-replace": "^5.0.2",
     "@rollup/plugin-wasm": "^5.2.0",
     "@rollup/pluginutils": "^4.2.1",
     "@types/jsdom": "^16.2.14",
